@@ -3,7 +3,7 @@ from Spinner import Spinner
 
 def main():
     # Load Spinner with the test synonyms
-    spinner = Spinner('test-synonyms.txt')
+    spinner = Spinner('synonyms-simplified.txt')
 
     # Read essay.txt
     with open('essay.txt', 'r') as file:
